@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10% auto;
+    background: linear-gradient(to right,rgba(91, 231, 236, 0.4),rgba(164, 232, 183, 0.4)),url(./../images/pexels-photo-7394576.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.heading{
+    background-color: rgba(34, 32, 34,0.8);
+    text-align: center;
+    padding: 30px;
+    color: white;
+    width: 600px;
+    border-radius: 10px 10px 0px 0px ;
+}
+.container{
+    width: 600px;
+    height:400px;
+    background-color: rgba(99, 107, 104,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(10, 10, 2, 0.2);
+    border-radius: 0px 0px 50px 50px;
+}
+.formel{
+    display: flex;
+}
+.formel input{
+    padding: 10px;
+    border : none;
+    outline : none;
+    margin: 0px auto;
+    border-radius: 10px 0px 0px 0px;
+}
+.formel span{
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    outline:none;
+    color: #ffff;
+    background-color: rgba(12, 12, 12, 0.7);
+    border-radius: 0px 10px 0px 0px;
+    font-weight: bold;
+    transition: .5s ease;
+}
+.btn:hover{
+    background-color: rgba(27, 233, 233,0.3);
+    color:#000;
+    font-weight: bold;
+    transform: scale(1.1);
+
+}
+ul{
+    background-color: rgba(99, 107, 104,0.5);
+    width: 48%;
+    list-style-type: none;
+}
+li{
+    padding: 10px;
+    border-bottom: 2px solid #ffff;
+    position: relative;
+}
+.close{
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.close:hover{
+    background-color: rgba(232, 21, 21, 0.9);
+    border-radius: 50%;
+    color:#ffffff ;
+}
